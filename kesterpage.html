@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login page</title>
+     <style>
+        body{
+            background-image: url(./BB15FhAT1.jpg);
+            background-size: cover;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            
+        }
+        #login{
+            width:300px;
+            height:auto;
+            background-color:aliceblue;linear-gradient(to right, rgb(14, 132, 229),rgb(179, 214, 243));
+            font-family: Arial;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            border-radius: 1rem;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 40px;
+            margin-top: 130px;
+        }
+         #login h1{
+            color: rgb(72, 72, 171);
+         }
+         input[type="email"]
+         {
+            width: 300px;
+            border-radius: 20px;
+            border:1px solid rgb(237, 143, 143);
+            font-size: medium;
+            margin-bottom: 16px;
+            padding: 10px;
+         }
+
+         input[type="password"]
+         {
+            width: 300px;
+            border-radius: 20px;
+            border:1px solid rgb(225, 42, 42);
+            font-size: medium;
+            margin-bottom: 16px;
+            padding: 10px;
+         }
+         #loginbtn{
+            background-color: blue;
+            color: aliceblue;
+            border-radius: 20px;
+            border: none;
+            background: linear-gradient(to right, rgb(14, 132, 229),rgb(179, 214, 243));
+            padding: 10px;
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: large;
+            transition: 1s ease;
+         }
+
+         #loginbtn:hover{
+            background-color: aqua;
+         }
+    
+     </style>
+</head>
+<body>
+   <form>
+      <div id="login">
+        <h1>LOGIN TO KESTER WEB-MAIL</h1>
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button id="loginbtn">login</button>
+        </div>
+      </div>  
+   </form>
+</body>
+</html>
